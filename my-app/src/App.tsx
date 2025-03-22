@@ -166,7 +166,7 @@ function App() {
                 name="skinType"
                 value={formData.skinType}
                 onChange={handleSelectChange}
-                className="w-full px-6 py-4 rounded-lg border border-gray-300 appearance-none focus:outline-none"
+                className="w-full px-6 py-4 rounded-lg border border-gray-300 appearance-none focus:outline-none text-white"
               >
                 <option value="">Select an Option</option>
                 <option value="Dry">Dry</option>
@@ -194,7 +194,7 @@ function App() {
                 name="pregnantOrBreastfeeding"
                 value={formData.pregnantOrBreastfeeding}
                 onChange={handleInputChange}
-                className="w-full px-6 py-4 rounded-lg border border-gray-300 text-center focus:outline-none"
+                className="w-full px-6 py-4 rounded-lg border border-gray-300 appearance-none focus:outline-none text-white"
                 readOnly
               />
             </div>
@@ -213,7 +213,7 @@ function App() {
                 name="skinConcerns"
                 value={formData.skinConcerns}
                 onChange={handleInputChange}
-                className="w-full px-6 py-4 rounded-lg border border-gray-300 text-center focus:outline-none"
+                className="w-full px-6 py-4 rounded-lg border border-gray-300 appearance-none focus:outline-none text-white"
               />
             </div>
           </div>
@@ -231,7 +231,7 @@ function App() {
                 name="productPreferences"
                 value={formData.productPreferences}
                 onChange={handleInputChange}
-                className="w-full px-6 py-4 rounded-lg border border-gray-300 text-center focus:outline-none"
+                className="w-full px-6 py-4 rounded-lg border border-gray-300 appearance-none focus:outline-none text-white"
               />
             </div>
           </div>
@@ -249,7 +249,7 @@ function App() {
                 name="medications"
                 value={formData.medications}
                 onChange={handleInputChange}
-                className="w-full px-6 py-4 rounded-lg border border-gray-300 text-center focus:outline-none"
+                className="w-full px-6 py-4 rounded-lg border border-gray-300 appearance-none focus:outline-none text-white"
               />
             </div>
           </div>
