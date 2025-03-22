@@ -20,7 +20,7 @@
       "noUnusedParameters": true,
       "noFallthroughCasesInSwitch": true
     },
-    "include": ["src", "components/button.tsx"],
+    "include": ["src", "components/button.tsx", "supabaseClient.js"],
     "references": [{ "path": "./tsconfig.node.json" }]
   }
   

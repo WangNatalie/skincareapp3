@@ -11,5 +11,5 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["vite.config.ts", "src", "components/button.tsx"]
+  "include": ["vite.config.ts", "src", "components/button.tsx", "supabaseClient.js"]
 }
